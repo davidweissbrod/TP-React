@@ -10,3 +10,5 @@ function UxUi(){
         </Fragment>
     );
 }
+
+export default UxUi; 
