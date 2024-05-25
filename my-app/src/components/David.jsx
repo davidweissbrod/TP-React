@@ -14,9 +14,6 @@ function David(){
                         tenga que ver con la tecnologia. Participo muy bien en proyectos grupales y soy capaz
                         de tomar una posicion de lider en estos cuando es necesario. Siempre trabajo con mucho entusiasmo
                         y busco lo mejor para el proyecto.
-
-                        Edad: 17 años
-                        Email: david.weissbrod@gmail.com
                     </p>
                 </div>
             </div>

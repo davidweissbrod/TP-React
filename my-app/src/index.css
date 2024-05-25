@@ -11,3 +11,172 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*Presentacion General*/
+
+.presentacion {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.presentacion img {
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.presentacion h3 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.presentacion h1 {
+  color: #444;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.presentacion p {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+
+/* Presentacion David y Ian */
+
+.presentacion-david,
+.presentacion-ian {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentacion-david img,
+.presentacion-ian img {
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.txt-david p,
+.txt-ian p {
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.txt-david p::after,
+.txt-ian p::after {
+    content: "";
+    display: block;
+    margin-top: 20px;
+}
+
+.txt-david p::before,
+.txt-ian p::before {
+    content: "";
+    display: block;
+    margin-bottom: 10px;
+}
+
+.txt-david p::before {
+    content: "David Weissbrod:";
+    font-weight: bold;
+}
+
+.txt-ian p::before {
+    content: "Ian Roitman:";
+    font-weight: bold;
+}
+
+/* Conocimientos */
+
+.conocimientos {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.conocimientos .bd,
+.conocimientos .desarrollo-web,
+.conocimientos .ux-ui {
+  flex: 1;
+  text-align: center;
+  padding: 0 10px; 
+}
+
+.conocimientos img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.conocimientos p {
+  color: #333;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.conocimientos .bd:hover,
+.conocimientos .desarrollo-web:hover,
+.conocimientos .ux-ui:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+/* Experiencia */
+
+.experiencia {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.card-cuarto,
+.card-proyecto-final,
+.card-onu {
+  flex: 1 1 300px; /* Flexible en tamaño, con ancho mínimo de 300px */
+  margin: 20px;
+}
+
+/* Educacion */
+
+.educacion {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.educacion > * {
+  flex: 1;
+  margin: 0 10px; 
+  max-width: 400px; 
+}
+
+/* Contacto */
+
+.contactos {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+
+.form {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.contact-text {
+  flex: 1;
+}

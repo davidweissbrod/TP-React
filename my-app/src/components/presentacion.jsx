@@ -9,7 +9,7 @@ function Presentacion(){
                 <img src={fotoDavidIan} alt="imagen arriba"></img>
                 <h3>Hola!</h3>
                 <h1>Somos Ian Roitman y David Weissbrod</h1>
-                <p>Estudiantes de la escuela ORT en orientacion en Informatica</p>
+                <p>Estudiantes de la escuela ORT en la orientacion de Informatica</p>
             </div>
         </Fragment>
     );

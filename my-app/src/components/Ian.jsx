@@ -13,9 +13,6 @@ function Ian(){
                         Me apasiona mucho la politica exterior y los debates por eso me gustaria estudiar algo relacionado a eso.
                         Me gusta mucho trabajar en grupos y mas si es con amigos, ya que suele ser mas divertido y llevadero.
                         En cuanto a mis habilidades soy muy habil para debatir, hablar frente a un publico y me gusta diseñar.
-
-                        Edad: 17 años
-                        Email: iianroitman06@gmail.com
                     </p>
                 </div>
             </div>
