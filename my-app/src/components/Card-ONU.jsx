@@ -1,21 +1,42 @@
-import './index.css';
-import Card from 'react-bootstrap/Card';
+import React from 'react';
+import { Text, StyleSheet, Card } from 'react-native';
 
 function CardONU() {
     return (
-      <Card>
-        <Card.Header>Taller de ONU</Card.Header>
-        <Card.Body>
-          <Card.Title>ONU</Card.Title>
-          <Card.Text>
-            El modelo ONU es un conjunto de distintas camaras de ONU, asi estaban asamblea general, consejo de seguridad, derechos humanos,etc.
-            En el modelo te dan un cierto pais y una camara en donde cada uno tiene que representar los ideales y opiniones de ese pais
-            sobre el tema de la camara que le toca. Ambos participamos en la camara de derechos humanos, David representando a Irlanda
-            y Ian representando a Venezuela. Tambien ambos fuimos mencionados de manera escrita y a Ian lo entrevistaron miembros de ONU.  
-          </Card.Text>
-        </Card.Body>
-      </Card>
+        <Card style={styles.card}>
+            <Card.Title title="Taller de ONU" />
+            <Card.Content>
+                <Text style={styles.title}>ONU</Text>
+                <Text style={styles.text}>
+                    El modelo ONU es un conjunto de distintas cámaras de ONU, así estaban asamblea general, consejo de seguridad, derechos humanos, etc.
+                    En el modelo te dan un cierto país y una cámara en donde cada uno tiene que representar los ideales y opiniones de ese país
+                    sobre el tema de la cámara que le toca. Ambos participamos en la cámara de derechos humanos, David representando a Irlanda
+                    y Ian representando a Venezuela. También ambos fuimos mencionados de manera escrita y a Ian lo entrevistaron miembros de la ONU.  
+                </Text>
+            </Card.Content>
+        </Card>
     );
-  }
-  
-  export default CardONU;
+}
+
+const styles = StyleSheet.create({
+    card: {
+        margin: 10,
+        padding: 10,
+        backgroundColor: '#fff',
+        borderRadius: 8,
+        elevation: 5, // Sombra para darle un efecto elevado en Android
+    },
+    title: {
+        fontSize: 20,
+        fontWeight: 'bold',
+        color: '#333',
+        marginBottom: 10,
+    },
+    text: {
+        fontSize: 16,
+        lineHeight: 22,
+        color: '#555',
+    },
+});
+
+export default CardONU;

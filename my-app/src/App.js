@@ -11,6 +11,7 @@ import Educacion from './components/Educacion'
 import BaseDeDatos from './components/Base-Datos'
 import Contacto from './components/Contacto'
 import ContactoText from './components/ContactoText'
+import Info from '../src/components/Info'
 
 
 function App() {
